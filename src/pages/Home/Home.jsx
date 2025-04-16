@@ -5,7 +5,7 @@ import Category from '../../components/Category/Category'
 import HomePageProductCard from '../../components/HomePageProductCard/HomePageProductCard'
 import Track from '../../components/Track/Track'
 import Testmonial from '../../components/Testmonial/Testmonial'
-import Loader from '../../components/loader/Loader'
+import Loader from '../../components/Loader/Loader'
 import { useContext } from 'react'
 import MyContext from '../../context/myContext'
  
