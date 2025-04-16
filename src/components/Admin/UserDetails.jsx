@@ -1,6 +1,6 @@
 
 import { useContext } from "react";
-import myContext from "../../context/myContext";
+import myContext from "../../context/MyContext";
 import { FaTrash, FaEdit } from "react-icons/fa"; // Import icons for actions (edit and delete)
 
 const UserDetails = () => {
