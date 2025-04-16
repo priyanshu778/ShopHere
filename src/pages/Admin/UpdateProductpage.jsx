@@ -1,11 +1,11 @@
 
 import { useNavigate, useParams } from "react-router";
-import myContext from "../../context/myContext";
+import myContext from "../../context/MyContext";
 import { useContext, useEffect, useState } from "react";
 import { Timestamp, doc, getDoc, setDoc } from "firebase/firestore";
 import { fireDB } from "../../Firebase/Firebase";
 import toast from "react-hot-toast";
-import Loader from "../../components/loader/Loader";
+import Loader from "../../components/Loader/Loader";
 
 // Importing icons from Lucide
 import { Edit, DollarSign, Image, Tag, FileText } from 'lucide-react';
