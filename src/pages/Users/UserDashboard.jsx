@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
-import Layout from "../../components/layout/Layout";
-import myContext from "../../context/myContext";
+import Layout from "../../components/Layout/Layout";
+import myContext from "../../context/MyContext";
 import Loader from "../../components/loader/Loader";
 
 const UserDashboard = () => {
