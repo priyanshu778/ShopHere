@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router";
-import Layout from "../../components/layout/Layout";
+import Layout from "../../components/Layout/Layout";
 import { useContext, useEffect } from "react";
-import myContext from "../../context/myContext";
+import myContext from "../../context/MyContext";
 import { useDispatch, useSelector } from "react-redux";
 import toast from "react-hot-toast";
 import { addToCart, deleteFromCart } from "../../redux/CartSlice";
