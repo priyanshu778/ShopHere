@@ -1,10 +1,10 @@
 import { Timestamp, addDoc, collection } from "firebase/firestore";
 import { useContext, useState } from "react";
-import myContext from "../../context/myContext";
+import myContext from "../../context/MyContext";
 import toast from "react-hot-toast";
 import { fireDB } from "../../Firebase/Firebase";
 import { useNavigate } from "react-router";
-import Loader from "../../components/loader/Loader";
+import Loader from "../../components/Loader/Loader";
 
 // Import Icons from Lucide
 import { Edit, DollarSign, Image, Tag, FileText } from 'lucide-react';
