@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import Layout from "../../components/Layout/Layout";
 import myContext from "../../context/MyContext";
-import Loader from "../../components/loader/Loader";
+import Loader from "../../components/Loader/Loader";
 
 const UserDashboard = () => {
     const user = JSON.parse(localStorage.getItem('users')); // Fetch user data from localStorage
