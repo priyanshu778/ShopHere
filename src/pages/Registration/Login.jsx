@@ -1,10 +1,10 @@
 import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import myContext from "../../context/myContext";
+import myContext from "../../context/MyContext";
 import toast from "react-hot-toast";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth, fireDB } from "../../Firebase/Firebase";
-import Loader from "../../components/loader/Loader";
+import Loader from "../../components/Loader/Loader";
 import { collection, onSnapshot, query, where } from "firebase/firestore";
 
 const Login = () => {
