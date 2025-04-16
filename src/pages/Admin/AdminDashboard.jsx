@@ -3,7 +3,7 @@ import ProductDetail from '../../components/Admin/ProductDetails';
 import OrderDetail from '../../components/Admin/OrderDetails';
 import UserDetail from '../../components/Admin/UserDetails';
 import { useContext } from 'react';
-import myContext from '../../context/myContext';
+import myContext from '../../context/MyContext';
 import { FaShoppingBasket, FaListAlt, FaUsers, FaCogs, FaUserCog } from 'react-icons/fa'; // React-icons for more expressive visuals
 import { motion } from 'framer-motion'; // For animations
 
