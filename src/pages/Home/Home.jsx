@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../../components/layout/Layout'
+import Layout from '../../components/Layout/Layout'
 import Herosection from '../../components/Herosection/Herosection'
 import Category from '../../components/Category/Category'
 import HomePageProductCard from '../../components/HomePageProductCard/HomePageProductCard'
