@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import myContext from "../../context/myContext";
+import myContext from "../../context/MyContext";
 import { FaTrash } from "react-icons/fa"; // Add icon for delete button
 
 const OrderDetail = () => {
