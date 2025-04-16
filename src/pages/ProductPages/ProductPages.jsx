@@ -1,10 +1,10 @@
 import { useContext, useEffect, useState } from "react";
-import Layout from "../../components/layout/Layout";
-import myContext from "../../context/myContext";
+import Layout from "../../components/Layout/Layout";
+import myContext from "../../context/MyContext";
 import { useParams } from "react-router";
 import { fireDB } from "../../Firebase/Firebase";
 import { doc, getDoc } from "firebase/firestore";
-import Loader from "../../components/loader/Loader";
+import Loader from "../../components/Loader/Loader";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, deleteFromCart } from "../../redux/CartSlice";
 import toast from "react-hot-toast";
