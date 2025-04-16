@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import Layout from "../../components/layout/Layout";
+import Layout from "../../components/Layout/Layout";
 import { Trash } from 'lucide-react'
 import { decrementQuantity, deleteFromCart, incrementQuantity } from "../../redux/CartSlice";
 import toast from "react-hot-toast";
