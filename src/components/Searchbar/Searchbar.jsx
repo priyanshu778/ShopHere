@@ -36,7 +36,7 @@ const Searchbar = () => {
                                         <div
                                             key={index}
                                             className="py-2 px-2 cursor-pointer hover:bg-gray-200 rounded-lg transition-all duration-200"
-                                            onClick={() => navigate(`/productinfo/${item.id}`)}
+                                            onClick={() => navigate(`/productpages/${item.id}`)}
                                         >
                                             <div className="flex items-center gap-2">
                                                 <img className="w-10" src={item.productImageUrl} alt="" />
